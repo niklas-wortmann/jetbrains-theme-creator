@@ -14,7 +14,13 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@jetbrains-theme-creator/auth": ["libs/auth/src/index.ts"],
+      "@jetbrains-theme-creator/ide-preview": ["libs/ide-preview/src/index.ts"],
+      "@jetbrains-theme-creator/theme-editor": [
+        "libs/theme-editor/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
